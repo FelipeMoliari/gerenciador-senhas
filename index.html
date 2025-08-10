@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <title>PassX - Gerenciador de Senhas</title>
+  </head>
+  <body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <i class="fas fa-shield-alt"></i>
+                <span>PassX</span>
+            </div>
+        </div>
+    </nav>
+    
+    <div class="container">
+        <header class="hero">
+            <h1 class="hero-title">Gerenciador de Senhas</h1>
+            <p class="hero-subtitle">Mantenha suas credenciais seguras e organizadas em um só lugar</p>
+        </header>
+
+        <div class="notification" id="alert">
+            <i class="fas fa-check-circle"></i>
+            <span>Copiado com sucesso!</span>
+        </div>
+        
+        <section class="passwords-section">
+            <div class="section-header">
+                <h2 class="section-title">
+                    <i class="fas fa-key"></i>
+                    Suas Senhas
+                </h2>
+            </div>
+            <div class="table-container">
+                <table class="passwords-table">
+                    <thead>
+                        <tr>
+                            <th>Site</th>
+                            <th>Login</th>
+                            <th>Senha</th>
+                            <th>Ações</th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+        </section>
+        
+        <section class="add-password-section">
+            <div class="section-header">
+                <h2 class="section-title">
+                    <i class="fas fa-plus-circle"></i>
+                    Adicionar Nova Senha
+                </h2>
+            </div>
+            <form class="password-form" action="/submit" method="post">
+                <div class="form-group">
+                    <label for="website">
+                        <i class="fas fa-globe"></i>
+                        Site
+                    </label>
+                    <input type="text" id="website" name="website" placeholder="exemplo.com" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="username">
+                        <i class="fas fa-user"></i>
+                        Login
+                    </label>
+                    <input type="text" id="username" name="username" placeholder="seu@email.com" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="password">
+                        <i class="fas fa-lock"></i>
+                        Senha
+                    </label>
+                    <div class="password-input-container">
+                        <input type="password" id="password" name="password" placeholder="••••••••" required>
+                        <button type="button" class="toggle-password" onclick="togglePasswordVisibility('password')">
+                            <i class="fas fa-eye" id="password-eye"></i>
+                        </button>
+                    </div>
+                </div>
+                
+                <button class="btn-primary" type="submit">
+                    <i class="fas fa-save"></i>
+                    Salvar Senha
+                </button>
+            </form>
+        </section>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
