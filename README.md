@@ -1,7 +1,6 @@
 # 🔐 PassX - Gerenciador de Senhas
+**Mantenha suas credenciais seguras e organizadas em um só lugar!**
 <img src="gerenciador-senhas.gif">
-
-> **Mantenha suas credenciais seguras e organizadas em um só lugar!**
 
 Um gerenciador de senhas moderno, seguro e intuitivo desenvolvido com tecnologias web puras. PassX oferece uma interface elegante e funcionalidades robustas para proteger suas informações mais importantes.
 
@@ -38,23 +37,6 @@ Um gerenciador de senhas moderno, seguro e intuitivo desenvolvido com tecnologia
 - **Gerenciar Senhas**: Tabela organizada com ações rápidas
 - **Copiar com Um Clique**: Sistema de clipboard integrado
 - **Visualização Segura**: Toggle de visibilidade para senhas
-
-## 🛠️ Tecnologias Utilizadas
-
-| Tecnologia       | Versão | Propósito               |
-| ---------------- | ------ | ----------------------- |
-| **HTML5**        | Latest | Estrutura semântica     |
-| **CSS3**         | Latest | Estilização moderna     |
-| **JavaScript**   | ES6+   | Lógica e interatividade |
-| **Font Awesome** | 6.0.0  | Ícones profissionais    |
-| **Google Fonts** | Inter  | Tipografia moderna      |
-
-### Uso Imediato
-
-1. **Abra** o `index.html` em qualquer navegador
-2. **Adicione** suas primeiras senhas usando o formulário
-3. **Gerencie** suas credenciais com facilidade
-4. **Aproveite** a segurança e praticidade!
 
 ## 📋 Funcionalidades Detalhadas
 
