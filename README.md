@@ -1,4 +1,5 @@
 # 🔐 PassX - Gerenciador de Senhas
+<img src="gerenciador-senhas.gif">
 
 > **Mantenha suas credenciais seguras e organizadas em um só lugar!**
 
@@ -86,14 +87,3 @@ passx/
 ├── script.js           # Lógica da aplicação
 └── README.md           # Documentação
 ```
-
-## 🤝 Contribuindo
-
-Contribuições são sempre bem-vindas! Para contribuir:
-
-1. **Fork** o projeto
-2. **Crie** uma branch para sua feature (`git checkout -b feature/AmazingFeature`)
-3. **Commit** suas mudanças (`git commit -m 'Add some AmazingFeature'`)
-4. **Push** para a branch (`git push origin feature/AmazingFeature`)
-5. **Abra** um Pull Request
-
